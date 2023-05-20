@@ -4,6 +4,7 @@ const { registerRoute } = require('workbox-routing');
 const { CacheableResponsePlugin } = require('workbox-cacheable-response');
 const { ExpirationPlugin } = require('workbox-expiration');
 const { precacheAndRoute } = require('workbox-precaching/precacheAndRoute');
+const uri = mongodb+srv://daviske13:Murphy13@cluster0.j6ccqkz.mongodb.net/?retryWrites=true&w=majority;
 
 precacheAndRoute(self.__WB_MANIFEST);
 
